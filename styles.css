@@ -2,49 +2,108 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
-header, nav, footer {
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #333;
 }
 
 header {
-    flex: 0 1 50px;
+    background-color: #1e73be;
+    color: white;
+    padding: 20px 0;
 }
 
-nav {
-    flex: 0 1 50px;
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.quote {
+    background-color: #1e73be;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.quote span {
+    color: #ffd700;
+}
+
+.features {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    width: 22%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.feature h3 {
+    margin-top: 0;
+}
+
+.recent-work {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.work-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.work-images img {
+    width: 22%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.quote-form {
+    background-color: #1e73be;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
 }
 
 footer {
-    flex: 0 1 50px;
-    margin-top: auto;
+    background-color: #1e73be;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.content-wrapper {
-    display: flex;
-    flex: 1;
-    padding: 20px;
-}
-
-.left-sidebar, .right-sidebar {
-    flex: 0 1 20%;
-    background-color: #e4e4e4;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-main {
-    flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
 }
